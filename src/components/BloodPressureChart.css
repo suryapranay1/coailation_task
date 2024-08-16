@@ -1,0 +1,7 @@
+.chart-container {
+  margin-top: 50px;
+  width: 30em; /* Set the desired width */
+  height: 20em; /* Set the desired height */
+  position: relative;
+  margin-left: em;
+}

@@ -1,0 +1,42 @@
+.patient-detail-container {
+  position: absolute; /* Position the div relative to its nearest positioned ancestor */
+  top: 20px; /* Distance from the top of the container or viewport */
+  right: 20px; /* Align it to the right side of the container or viewport */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  height: 280px;
+  margin-top: 3em;
+}
+
+.patient-detail-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.patient-detail-info {
+  list-style: none;
+
+  text-align: left;
+}
+
+.show-all-info-btn {
+  background-color: #1abc9c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 9em;
+}
+
+.show-all-info-btn:hover {
+  background-color: #16a085;
+}
